@@ -1,0 +1,62 @@
+{
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "advanced-custom-fields-pro",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://www.schoonerdev.net/zip/advanced-custom-fields-pro.zip",
+                "reference": "master"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "custom-post-type-ui",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://www.schoonerdev.net/zip/custom-post-type-ui.zip",
+                "reference": "master"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "wp-sync-db",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://www.schoonerdev.net/zip/wp-sync-db.zip",
+                "reference": "master"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "wp-sync-db-media-files",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://www.schoonerdev.net/zip/wp-sync-db-media-files.zip",
+                "reference": "master"
+            }
+        }
+    }
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"advanced-custom-fields-pro": "dev-master",
+		"custom-post-type-ui": "dev-master",
+		"wp-sync-db": "dev-master",
+		"wp-sync-db-media-files": "dev-master"
+	},
+	"config": {
+			"vendor-dir": "../../plugins"
+		}
+}
