@@ -22,7 +22,6 @@
   "homepage": "https://github.com/sjsiegel001/cleanplate#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "browser-sync": "^2.18.12",
     "browser-sync-webpack-plugin": "^1.2.0",
     "laravel-mix": "^1.2.0"
   }

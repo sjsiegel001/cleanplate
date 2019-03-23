@@ -44,7 +44,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <meta name="description" content="We will revolutionize the way mental health care is delivered in America and create a future where diagnosis and treatment covers the brain and the body.">
 	<title><?php echo bloginfo('name'); ?></title>
 	<?php wp_head(); ?>
 </head>
